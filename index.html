@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Shopping List</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="hero">
+          <img src="./src/images/note.png" alt="note image" />
+          <h1>Shopping List</h1>
+        </div>
+        <form id="item-form">
+          <div class="form-control">
+            <input
+              type="text"
+              class="form-input"
+              id="item-input"
+              name="item"
+              placeholder="Enter Item"
+            />
+
+            <button type="submit" class="btn">
+              <i class="fa-solid fa-plus"></i> Add Item
+            </button>
+          </div>
+        </form>
+      </div>
+    </header>
+    <section class="filter">
+      <div class="container filter__container">
+        <input
+          type="text"
+          class="form-input-filter"
+          id="filter"
+          placeholder="Filter Items"
+        />
+      </div>
+    </section>
+    <section class="shopping">
+      <div class="container">
+        <ul class="items" id="item-list"></ul>
+      </div>
+    </section>
+    <!-- JS -->
+    <script type="module" src="./src/js/main.js"></script>
+  </body>
+</html>
