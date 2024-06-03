@@ -42,7 +42,9 @@ body {
   color: #333;
   background-color: #f5f5f5;
 }
-
+.edit-mode {
+  color: #ccc;
+}
 /* header */
 .header {
   padding-top: 5rem;
@@ -138,6 +140,12 @@ body {
 
 .text-red {
   color: red;
+}
+
+.remove-edit-item {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
 }
 
 /* Items */
