@@ -4,7 +4,8 @@
 
 This project was created to focus on working with the DOM, events, state, local storage and other fundamentals of JavaScript.
 </p>
-![screen](https://github.com/AdelOmerJS/shoppin-list/assets/156930348/3d6ac8f8-2567-4b71-85b7-b5dd38ed632f)
+
+![image](https://github.com/AdelOmerJS/shoppin-list/assets/156930348/261f81a4-b6f3-4528-9fac-95368421bddf)
 
 
 Demo: https://main--shopping-listy.netlify.app/
